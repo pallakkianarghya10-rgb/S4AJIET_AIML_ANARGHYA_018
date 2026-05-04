@@ -1,0 +1,32 @@
+public class Main
+{
+    public static void main(String[] args) {
+        int n=15;
+            int k=3;
+            int j=3;
+            int m=18;
+            int p=8;
+            int a=m%k;
+            int b=p%j;
+            int a1,a2,d2,d1,q,total;
+            if(a==0&&b==0){
+                 d1=m/k;
+                 d2=p/j;
+                 q=d1+d2;
+            }
+            else{
+                  d1=m/k;
+                  d2=p/j;
+                  q=a+b+d1+d2;
+               
+               
+            }
+            total=n-q;
+            System.out.println("total="+total);
+           
+       
+       
+   
+}
+   
+}
