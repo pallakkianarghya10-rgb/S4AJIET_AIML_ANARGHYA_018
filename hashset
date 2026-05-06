@@ -6,5 +6,6 @@ class Main {
         ai.add(20);
         ai.add(2);
         System.out.println(ai);
+        System.out.println(ai.size());
     }
     }
